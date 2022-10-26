@@ -32,6 +32,13 @@ class Chronometer {
   computeTwoDigitNumber(value) {
     // ... your code goes here
     return value.toString().padStart(2, '0');
+
+  /*   computeTwoDigitNumber(value) {
+      return ("0" + value).slice(-2,)
+   }
+  */
+
+
   }
 
   stop() {
